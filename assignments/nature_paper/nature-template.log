@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6350 64-bit) (preloaded format=pdflatex 2017.10.21)  9 APR 2019 13:02
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6350 64-bit) (preloaded format=pdflatex 2017.10.21)  9 APR 2019 15:06
 entering extended mode
 **./nature-template.tex
 (nature-template.tex
@@ -170,10 +170,10 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 {C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map}]
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <12> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 48.
- [2] (nature-template.bbl) [3]
+ [2] [3] (nature-template.bbl) [4]
 LaTeX Font Info:    Font shape `OT1/phv/bx/n' in size <12> not available
-(Font)              Font shape `OT1/phv/b/n' tried instead on input line 70.
- [4]
+(Font)              Font shape `OT1/phv/b/n' tried instead on input line 82.
+ [5]
 (nature-template.aux) ) 
 Here is how much of TeX's memory you used:
  1781 strings out of 493323
@@ -182,7 +182,7 @@ Here is how much of TeX's memory you used:
  5295 multiletter control sequences out of 15000+200000
  21355 words of font info for 43 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 39i,5n,25p,563b,216s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 39i,5n,25p,564b,216s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Program Files/MiKTeX/fonts/enc/dvips/base/8r.enc}<C:
 /Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Program Files
 /MiKTeX/fonts/type1/urw/helvetic/uhvb8a.pfb><C:/Program Files/MiKTeX/fonts/type
@@ -190,9 +190,9 @@ Here is how much of TeX's memory you used:
 .pfb><C:/Program Files/MiKTeX/fonts/type1/urw/times/utmr8a.pfb><C:/Program File
 s/MiKTeX/fonts/type1/urw/times/utmr8a.pfb><C:/Program Files/MiKTeX/fonts/type1/
 urw/times/utmri8a.pfb>
-Output written on nature-template.pdf (4 pages, 76081 bytes).
+Output written on nature-template.pdf (5 pages, 78929 bytes).
 PDF statistics:
- 44 PDF objects out of 1000 (max. 8388607)
+ 47 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
