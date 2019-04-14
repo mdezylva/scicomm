@@ -7,8 +7,24 @@
 \documentclass{nature}
 
 %\usepackage[backend=biber]{biblatex}
-\usepackage{graphicx}
-%% make sure you have the nature.cls and naturemag.bst files where
+\usepackage{enumitem}
+\usepackage{graphicx}           % Extended \includegraphics         
+\usepackage[reqno]{amsmath}            % Higher mathematics
+\usepackage{hyperref}           
+\usepackage[margin = 0.5in]{geometry}
+\usepackage{float}
+\usepackage{amssymb}            % special math fonts
+\usepackage{amsmath}
+\usepackage{siunitx}
+\usepackage{enumitem}
+\usepackage{cancel}
+\usepackage{braket}
+\usepackage{tikz}
+\usepackage{pgfplots}
+\usepackage[final]{pdfpages}
+\usepackage{physics}
+\usepackage{subcaption}
+\usepackage{bbm}%% make sure you have the nature.cls and naturemag.bst files where
 %% LaTeX can find them
 
 %\bibliographystyle{naturemag}
@@ -31,10 +47,13 @@
 
 %\begin{abstract}
 
-\begin{figure}
+
+\section{The Cosmic Microwave Background}
+\begin{figure}[h]
+    \label{fig:planck}
     \begin{center}
         \includegraphics[scale=0.5]{Planck_2018_T_CMB.pdf}
-        \caption{This is a figure.}
+        \caption{The Cosmic Microwave Background from the \textit{Planck} Satellite}
     \end{center}
 \end{figure}
 
@@ -46,34 +65,40 @@ The CMB is made up of very low power microwaves, and its characteristic splotche
 In more recent years, a number of experiments have been done specifically to examine the properties of the CMB, including the Atacama Cosmology Telescope in the mountains of Chile, the South Pole Telescope, and the European Space Agency's \textit{Planck} Satellite. These experiments have broadened the scope of the original detection, leading to the collection of an unprecedented amount of data, and applications across a number of areas of astronomy. 
 
 \section{The Missing Baryon Problem}
-The CMB has allowed us to determine with a very high level of confidence the composition of the universe. The universe is broadly comprised of light, regular matter, and the infamous dark matter and dark energy, and the precise ratios of each are very tightly constrained. 
+The CMB has allowed scientists to determine with a very high level of confidence the composition of the universe. The universe is broadly comprised of light, regular matter, and the infamous dark matter and dark energy, the precise ratios of which are very tightly constrained. 
 
-However when astronomers look at the sky, and measure the amount of matter they see with telescopes, it becomes apparent that only about half of the universe's regular matter - known as 'baryons' - is present in the light emitted from stars and galaxies. This begged the question, where was all the missing matter? 
+However when astronomers look at the sky, and measure the amount of matter they see with telescopes, it becomes apparent that only about half of the universe's regular matter - known as 'baryons' - is present in the light emitted from stars and galaxies. This begs the question, where is all the missing matter? 
 
-It was clear that the matter must be there, since it is very clear to discern between dark matter and baryons in physical models. The universe could not have evolved to be what we see today if that fraction wasn't correct. But it was also apparent that only about 10 percent of baeyons exist in galaxies themselves, with some 30 to 40 percent existing in gas clouds surrounding galaxies. This still leaves a large fraction unaccounted for. 
+It was clear that the matter must be there, since it is very clear to discern between dark matter and baryons in physical models. The universe could not have evolved to be what we see today if that fraction wasn't correct. But it was also apparent that only about 10 percent of baryons exist in galaxies themselves, with some 30 to 40 percent existing in gas clouds surrounding galaxies. This still leaves a large fraction unaccounted for. 
 
-A possible answer comes from simulations. When astronomers model the behaviour of the very early universe, they notice that when galaxies form, long string like filaments form between them, creating a picture not unlike those seen in the brain with neurons.
+A possible answer comes from simulations - when astronomers model the behaviour of the very early universe, they notice that when galaxies form, long string like filaments form between them, creating a picture not unlike those seen in the brain with neurons.
 
-\begin{figure}
+\begin{figure}[h]
     \includegraphics{tiamat_1.png}
 \end{figure}
 
 
 These filaments contain very small amounts of matter, superheated to temperatures between thousands and millions of degrees, and spread out over the vast reaches of space. The combination of its speed and the distances over which it is spread makes thes filaments very sparse - only a few atoms per cubic meter. 
 
-Detecting these filaments  has proven to be a difficult task, since the scarcity of the gas makes it very unlikely that there will be any observable signal. The only possible method of direct detection of this matter involves using a quasar, a galaxy with a very active super-massive black hole at its centre, as a backlight. Unfortunately this is an incredibly rare event, since it requires us to find just such an object, and for its beam to pass through both a filament and a telescope that is observing the sky and can see the object. 
+Detecting these filaments has proven to be a difficult task, since the scarcity of the gas makes it very unlikely that there will be any observable signal. The only possible method of direct detection of this matter involves using a quasar, a galaxy with a very active super-massive black hole at its centre, as a backlight. Unfortunately this is an incredibly rare event, since it requires us to find just such an object, and for its beam to pass through both a filament and a telescope that is observing the sky and can see the object. 
 
 \section{A new use for the oldest light in the universe}
 
-One possible solution is to use the CMB itself. At a fundamental level, the CMB is just light, sitting at the edge of the observable universe, and light does not move through the universe un-impeded. It is distorted by the matter in between it and our detectors in a number of different ways.
+One possible solution is to use the CMB itself. At a fundamental level, the CMB is just light, sitting at the edge of the observable universe, and light is interactive. It is distorted by the matter in between it and our detectors in a number of different ways.
 
 Scientists appeal first to a phenomenon known as Compton Scattering. The subject of the 1927 Nobel Prize, and named after its discoverer, Arthur Holly Compton, this effect describes how light can exchange some of its energy with electrons, and vice versa. Since there is hot gas in between the CMB and us, there will be sections of the sky which will have absorbed some energy from the intervening gas, and look more energetic than its surroundings. 
 
-A second possible tool for analysis is to take advantage of the distortion that matter makes in space-time. This distortion leaves characteristic traces in the light that we see, making it appear rotated when we compare it to the background light. 
+A second possible tool for analysis is to take advantage of the distortion that matter makes in space-time, an effect known as Gravitational Lensing. This distortion leaves characteristic traces in the light that we see, making it appear rotated when we compare it to the background light. 
 
-On their own, the signals obtained by these techniques are too small for us to detect for a single filament. They are simply too low. But, this signal 
+On their own, the signals obtained by these techniques are too small for us to detect for a single filament, there is just not enough matter. We can however, use this fact to our advantage, since by definition, the noise in the signal is random. This means that if you add up enough of it, it will eventually zero out. Conversely, the signals we are looking for should stack on top of each other. Therefore, we can make a direct detection if we add multiple images on top of each other. We expect the noise to cancel out, leaving just the signal.
 
-Test Test Test
+\section{Tracing the Large Scale Structure}
+With this in mind, scientists know that they must use locations where they expect to find the missing matter in order to make a detection of any kind. To do so, they look to comprehensive galaxy surveys, such as the Sloan Digital Sky Survey (SDSS) and the Dark Energy Survey (DES), which have created some of the most detailed three-dimensional maps of the universe we have to date. 
+
+They then search for a very particular type of galaxy, one that is said to trace the underlying dark matter, since it is the dark matter that governs the evolution of the large scale structure of the universe. These galaxies are known as Luminous Red Galaxies, and are some of the largest and oldest galaxies in the sky. 
+
+Once the galaxies are located, they are paired up based on whether they are likely to have a filament connecting them, and located in the CMB. The signals are then stacked on top of each other, hopefully revealing the missing baryons.
+
 
 Citation of Einstein's paper \cite{Einstein}.
 
