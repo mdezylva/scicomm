@@ -1,16 +1,15 @@
 # Fdb version 3
-["bibtex nature-template"] 1555138279 "nature-template.aux" "nature-template.bbl" "nature-template" 1555231998
+["bibtex nature-template"] 1555295716 "nature-template.aux" "nature-template.bbl" "nature-template" 1555295718
   "./naturemag.bst" 1412896332 34867 ae05936b307e5838449d1bb5fdbb2c19 ""
-  "nature-template.aux" 1555138281 1246 7c5076b5e64e52d705662e0157f6b66a ""
+  "nature-template.aux" 1555295718 1246 7c5076b5e64e52d705662e0157f6b66a ""
   "nature-template.bcf" 1554941702 87919 f975c5b7027a84f33fc4cd311da4acbc ""
   "sample.bib" 1412896332 394 088c98c073bd7176ca7d7067a3f561c1 ""
   (generated)
   "nature-template.bbl"
-  "nature-template.blg"
-["pdflatex"] 1555138280 "/home/mitchell/Documents/masters/communication/assignments/nature_paper/nature-template.tex" "/home/mitchell/Documents/masters/communication/assignments/nature_paper/nature-template.pdf" "nature-template" 1555231998
+["pdflatex"] 1555295717 "/home/mitchell/Documents/masters/communication/assignments/nature_paper/nature-template.tex" "/home/mitchell/Documents/masters/communication/assignments/nature_paper/nature-template.pdf" "nature-template" 1555295718
   "/etc/texmf/web2c/texmf.cnf" 1533699540 475 c0e671620eb5563b2130f56340a5fde8 ""
-  "/home/mitchell/Documents/masters/communication/assignments/nature_paper/nature-template.aux" 1555138281 1246 7c5076b5e64e52d705662e0157f6b66a ""
-  "/home/mitchell/Documents/masters/communication/assignments/nature_paper/nature-template.tex" 1555231998 7746 1d018dcf2f94084a31be2291015dd80c ""
+  "/home/mitchell/Documents/masters/communication/assignments/nature_paper/nature-template.aux" 1555295718 1246 7c5076b5e64e52d705662e0157f6b66a ""
+  "/home/mitchell/Documents/masters/communication/assignments/nature_paper/nature-template.tex" 1555295713 7779 471bb33dca02a50d6d65723d0c9c4bf4 ""
   "/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc" 1480098666 4850 80dc9bab7f31fb78a000ccfed0e27cab ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1511824771 3332 103109f5612ad95229751940c61aada0 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/adobe/helvetic/phvb7t.tfm" 1480098688 2240 eb56c13537f4d8a0bd3fafc25572b1bd ""
@@ -204,6 +203,7 @@
   "/usr/share/texlive/texmf-dist/tex/latex/l3packages/xparse/xparse.sty" 1519337871 76828 accb53d91c291d3ec67841b8989ca15c ""
   "/usr/share/texlive/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg" 1480098833 678 4792914a8f45be57bb98413425e4c7af ""
   "/usr/share/texlive/texmf-dist/tex/latex/latexconfig/hyperref.cfg" 1480098833 235 6031e5765137be07eed51a510b2b8fb7 ""
+  "/usr/share/texlive/texmf-dist/tex/latex/lineno/lineno.sty" 1480098833 151738 8cd767481920f0eb785302dacfc87057 ""
   "/usr/share/texlive/texmf-dist/tex/latex/ms/everyshi.sty" 1480098835 3878 6aa7c08ff2621006e0603349e40a30a8 ""
   "/usr/share/texlive/texmf-dist/tex/latex/nature/nature.cls" 1480098835 4959 8f464302b0ec2c18bf8d2b631d4f5916 ""
   "/usr/share/texlive/texmf-dist/tex/latex/oberdiek/auxhook.sty" 1480098836 3834 4363110eb0ef1eb2b71c8fcbcdb6c357 ""
@@ -242,14 +242,14 @@
   "/usr/share/texmf/web2c/texmf.cnf" 1520210507 32485 c64754543d8ac501bea6e75e209ea521 ""
   "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1548034749 2700761 ac0584cc9514ab21918550a6948c4ee2 ""
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1548034777 4127390 5c8d1f5e5d2107cce3313f7088904f61 ""
-  "nature-template.aux" 1555138281 1246 7c5076b5e64e52d705662e0157f6b66a ""
-  "nature-template.bbl" 1555138279 588 1d504bbf4699002cb999fa730c214204 "bibtex nature-template"
-  "nature-template.out" 1555138281 276 cdf1d5a89d6290d09166932ad6dd1f81 ""
-  "nature-template.tex" 1555231998 7746 1d018dcf2f94084a31be2291015dd80c ""
+  "nature-template.aux" 1555295718 1246 7c5076b5e64e52d705662e0157f6b66a ""
+  "nature-template.bbl" 1555295717 588 1d504bbf4699002cb999fa730c214204 "bibtex nature-template"
+  "nature-template.out" 1555295718 276 cdf1d5a89d6290d09166932ad6dd1f81 ""
+  "nature-template.tex" 1555295713 7779 471bb33dca02a50d6d65723d0c9c4bf4 ""
   (generated)
   "nature-template.out"
-  "/home/mitchell/Documents/masters/communication/assignments/nature_paper/nature-template.pdf"
   "/home/mitchell/Documents/masters/communication/assignments/nature_paper/nature-template.log"
   "nature-template.pdf"
+  "/home/mitchell/Documents/masters/communication/assignments/nature_paper/nature-template.pdf"
   "nature-template.log"
   "nature-template.aux"
