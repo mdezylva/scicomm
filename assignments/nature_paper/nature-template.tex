@@ -1,8 +1,8 @@
-\documentclass{nature}
+\documentclass{article}
 
 %\usepackage[backend=biber]{biblatex}
 \usepackage{enumitem}
-\usepackage{graphicx}           % Extended \includegraphics         
+\usepackage[final]{graphicx}           % Extended \includegraphics         
 \usepackage[reqno]{amsmath}            % Higher mathematics
 \usepackage{hyperref}           
 \usepackage[margin = 0.5in]{geometry}
@@ -14,8 +14,6 @@
 \usepackage{cancel}
 \usepackage{braket}
 \usepackage{tikz}
-\usepackage{pgfplots}
-\usepackage[final]{pdfpages}
 \usepackage{physics}
 \usepackage{subcaption}
 \usepackage{lineno}
@@ -29,27 +27,30 @@
 %% Notice placement of commas and superscripts and use of &
 %% in the author list
 
-\author{Word Count = 970}
+\author{Word Count = 1007}
 
 
 \begin{document}
 
 \maketitle
 
-\begin{affiliations}
- \item The University of Melbourne, Victoria, Australia
-\end{affiliations}
+% \begin{affiliations}
+Mitchell de Zylva, Astronomer, The University of Melbourne, Victoria, Australia
+% \end{affiliations}
 
 %\begin{abstract}
 
-\section{The Cosmic Microwave Background}
-\begin{figure}
+
+\begin{figure}[H]
     \label{fig:planck}
     \begin{center}
-        \includegraphics{Planck_2018_T_CMB}
-        \caption{The Cosmic Microwave Background from the \textit{Planck} Satellite}
+        \includegraphics[scale=0.3]{planck_cmb.png}
+        \caption{The Cosmic Microwave Background from the \textit{Planck} Satellite (Grey lines indicate the location of the Milky Way Galaxy)}
     \end{center}
 \end{figure}
+
+\section{The Cosmic Microwave Background}
+
 Fifty five years after its accidental discovery, the first image of a baby universe has still not given up all its secrets. The afterglow of the Big Bang, known as the Cosmic Microwave Background (CMB), is the only faint remnant of the young universe currently still visible in the sky, and has been central in ushering in a golden age of cosmology. This golden age has been instrumental in defining many of the models used to describe the universe, but if even a single one of these is wrong, the whole thing may collapse like a house of cards. 
 
 The CMB, the before picture to the breathtaking after pictures seen through the Hubble Space Telescope, is made up of microwaves which carry very low power, and the characteristic splotches in it provide key insights into conditions in the early universe. This allows astronomers to determine characteristics, such as the relative proportions of matter, dark matter, dark energy, and other fundamental parameters. These splotches yield the most precise measures of the age, geometry, and composition of the universe to date. 
@@ -64,9 +65,12 @@ However when astronomers look at the sky, and measure the amount of matter they 
 It is clear that the matter must be there, since it is very easy to discern between dark matter and baryons in physical models. The universe could not have evolved to be what we see today if that fraction wasn't correct. But it was also apparent that only about 10 percent of baryons exist in galaxies themselves, with some 30 to 40 percent existing in gas clouds surrounding galaxies. This still leaves a large fraction unaccounted for. 
 
 One possible answer arises from simulations. Astronomers can model the evolution of the universe by tracking individual clumps of gas, and when they evolve them forward in time, they notice something interesting. The gas that doesn’t collapse to form galaxies stretches out into long filaments.
-% \begin{figure}
-%     \includegraphics{tiamat_1.png}
-% \end{figure}
+\begin{figure}[H]
+    \begin{center}
+        \includegraphics[scale=0.4]{tiamat-1.png}
+        \caption{The Large-Scale Structure of the Universe, from the \textit{dragons} Simulations }
+    \end{center}
+\end{figure}
 
 These filaments contain very small amounts of matter, superheated to temperatures between thousands and millions of degrees, and spread out over the vast reaches of space. The combination of their high temperature and these distances makes these filaments very sparse - only a few atoms per cubic meter. 
 
@@ -89,7 +93,7 @@ Once the galaxies are located, they are paired up based on whether they are like
 This search has been shown to work with low resolution images of the CMB, revealing the missing matter with relative certainty, however there is still more to be done to confirm this. By accessing higher resolution images, scientists hope to confirm the location of the missing baryon fraction, to remove any shred of doubt as to the validity of current cosmological models.
 % Citation of Einstein's paper \cite{Einstein}.
 
-\bibliographystyle{naturemag}
-\bibliography{sample}
+%\bibliographystyle{naturemag}
+%\bibliography{sample}
 \end{document}
 % Citation of Einstein's paper \cite{Einstein}.

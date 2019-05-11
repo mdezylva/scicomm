@@ -1,5 +1,0 @@
-[0] Config.pm:302> INFO - This is Biber 2.9
-[0] Config.pm:305> INFO - Logfile is 'nature-template.blg'
-[33] biber:313> INFO - === Sat May 11, 2019, 17:21:52
-[63] Biber.pm:371> INFO - Reading 'nature-template.bcf'
-[146] Utils.pm:169> WARN - No data sources defined!
